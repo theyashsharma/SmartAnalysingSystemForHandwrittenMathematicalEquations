@@ -1,11 +1,14 @@
 Django==3.2.9
-Flask==1.1.2
-keras==2.7.0
+h5py==3.1.0
+keras==2.6.0rc1
 keras_nightly==2.5.0.dev2021032900
+Keras-Preprocessing==1.1.2
 matplotlib==3.3.4
 numpy==1.20.2
 opencv_python==4.5.3.56
 pandas==1.2.3
+pillow==8.2.0
 scipy==1.6.2
-tensorflow==2.7.0
+tensorflow==2.6.0rc2
+tensorflow-estimator==2.6.0rc0
 tensorflow_gpu==2.5.0
