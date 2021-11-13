@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ggf*fd@6cx=5dz=j_4q7uzq4s*r4dimo4#5zl44v7&9thoiapn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'auto-evaluator-for-math-eqns.herokuapp.com']
 
 
 # Application definition
