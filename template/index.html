@@ -1,0 +1,52 @@
+{% extends 'headerPage.html' %}
+
+{% block content%}
+
+    <h1>Smart Analyzing System for Handwritten Mathematical Equation</h1>
+
+    <h2>Uplaod Image of Answer Script</h2>
+
+    
+    <br>
+   
+    <form method="post" enctype="multipart/form-data" action="checkSolution">
+  
+ {% csrf_token %}
+ <div class="col-md-4 col-sm-4"><label for="fname">Upload Image File Here:</label> </div> <input name="filePath" type="file"><br>
+
+ <input type="submit" value="Submit" ></div>
+ <br><br>
+
+
+ <h4> Problem Statement : A*X<sup>2</sup> + B*Y</h5>
+ <h5> Enter values of A, B, X, Y as in above equation </h5>
+ <input type="int" name="A" class="form-control" placeholder="Enter A" />
+ <input type="int" name="B" class="form-control" placeholder="Enter B" />
+ <input type="int" name="X" class="form-control" placeholder="Enter X" />
+ <input type="int" name="Y" class="form-control" placeholder="Enter Y" />
+
+
+
+
+ <h3>Uploaded Script :</h3>
+
+ <img src={{filePathName}} alt='imagename' width="500" height="600">
+ <br>
+
+ <h3>Analyzed Script :</h3>
+
+ <img src={{outputPathName1}} alt='outputimageq1' width="500" height="600">
+
+ <br>
+ <img src={{outputPathName2}} alt='outputimageq2' width="500" height="600">
+
+ <br>
+
+ <img src={{outputPathName3}} alt='outputimageq3' width="500" height="600">
+ 
+ <br>
+</form>
+<br>
+
+
+{% endblock %}
