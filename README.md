@@ -8,9 +8,9 @@
 	- Navigate to the Directory on command Prompt
 	- type command "python manage.py runserver"
 
-This Project is a part of a Hackathon project for Reva hack
-	Aim of this project is to digitize the steps of solving a mathematical equation written by freehand on a paper, 
-	validating the steps and final answer of the recognized handwritten lines by maintaining the context.
+
+Aim of this project is to digitize the steps of solving a mathematical equation written by freehand on a paper, 
+validating the steps and final answer of the recognized handwritten lines by maintaining the context.
 
 ## Workflow
 	The overall solution can be divided into the following two parts:
